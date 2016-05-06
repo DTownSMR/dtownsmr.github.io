@@ -7,14 +7,14 @@
     border-collapse: collapse;
 }
 .projectTable th {
-    background:#b5cfd2 url('images/blue-table-cell.jpg');
+    background:#b5cfd2 url('../images/blue-table-cell.jpg');
     border-width: 2px;
     padding: 10px;
     border-style: solid;
     border-color: #999999;
 }
 .projectTable td {
-    background:#dcddc0 url('images/grey-table-cell.jpg');
+    background:#dcddc0 url('../images/grey-table-cell.jpg');
     border-width: 2px;
     padding: 10px;
     border-style: solid;
