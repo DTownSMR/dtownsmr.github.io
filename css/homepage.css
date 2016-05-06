@@ -1,4 +1,4 @@
-table.projectTable {
+.projectTable {
     font-family: verdana,arial,sans-serif;
     font-size:11px;
     color:#333333;
@@ -6,17 +6,23 @@ table.projectTable {
     border-color: #999999;
     border-collapse: collapse;
 }
-table.projectTable th {
+.projectTable th {
     background:#b5cfd2 url('/images/blue-table-cell.jpg');
     border-width: 2px;
     padding: 10px;
     border-style: solid;
     border-color: #999999;
 }
-table.projectTable td {
+.projectTable td {
     background:#dcddc0 url('/images/grey-table-cell.jpg');
     border-width: 2px;
     padding: 10px;
     border-style: solid;
     border-color: #999999;
+}
+.projectTable tr:nth-child(odd){
+    background: #dcddc0;
+}
+.projectTable tr:nth-child(even){
+    background: #cbccba;
 }
